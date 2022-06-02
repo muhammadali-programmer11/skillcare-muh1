@@ -1,0 +1,153 @@
+.footer {
+  width: 100%;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  padding: 40px 100px;
+  color: black;
+}
+
+.footer .rasm {
+  width: 30%;
+}
+
+.footer .rasm img {
+  margin: 20px 0;
+}
+
+.footer h1 {
+  font-size: 26px;
+  margin-bottom: 13px;
+}
+.footer p {
+  line-height: 30px;
+  font-size: 18px;
+}
+.footer .box {
+  margin: 0 55px;
+  width: 20%;
+}
+.footer .connect .adress {
+  align-items: flex-end;
+  display: flex;
+}
+.footer .connect .adress > img {
+  margin: 0 15px;
+  -webkit-transform: translatey(-15px);
+  transform: translatey(-15px);
+}
+.footer .connect .text > p {
+  line-height: 25px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+.footer .connect .tarmoqlar i {
+  margin-right: 30px;
+}
+
+.copy{
+  margin-top: 10px;
+  font-size: 10px;
+}
+@media (max-width: 1200px) {
+  .footer {
+    padding: 20px;
+  }
+  .footer .connect .text > p {
+    line-height: 25px;
+    width: 90%;
+  }
+  .footer {
+    background-color: white;
+    color: black;
+    display: flex;
+    padding: 40px 80px;
+    width: 100%;
+  }
+  .footer .rasm {
+    width: 30%;
+  }
+  .footer .rasm img {
+    margin: 20px 0 20px -40px;
+  }
+}
+@media (max-width: 990px) {
+  .footer .rasm img {
+    margin: 20px 0 20px -40px;
+    width: 90%;
+  }
+}
+@media (max-width: 860px) {
+  .footer {
+    flex-wrap: wrap;
+    padding: 20px 40px;
+  }
+  .footer .rasm {
+    width: 55%;
+  }
+  .footer .box {
+    margin: 15px 0;
+    width: 45%;
+  }
+  .footer .box:nth-child(3),
+  .footer .box:nth-child(4) {
+    width: 50%;
+  }
+}
+@media (max-width: 840px) {
+  .footer .rasm img {
+    margin: 20px 0 20px -30px;
+    width: 60%;
+  }
+}
+@media (max-width: 620px) {
+  .footer {
+    flex-wrap: wrap;
+    padding: 20px 40px;
+    text-align: center;
+  }
+  .footer .rasm {
+    width: 100%;
+  }
+  .footer .box {
+    margin: 15px 0;
+    width: 100%;
+  }
+  .footer .box:nth-child(3) {
+    width: 100%;
+  }
+  .footer .box:nth-child(4) {
+    width: 100%;
+  }
+  .footer .box:nth-child(4) p {
+    width: 100%;
+  }
+  .footer .connect .adress {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .footer .connect .adress > img {
+    margin: 0 15px;
+    -webkit-transform: translatey(-15px);
+    transform: translatey(-15px);
+    width: 10px;
+  }
+}
+@media (max-width: 340px) {
+  .footer {
+    flex-wrap: wrap;
+    padding: 15px 20px;
+    text-align: center;
+  }
+  .footer .rasm {
+    width: 100%;
+  }
+}
+@media (max-width: 280px) {
+  .footer .rasm img {
+    margin: 20px 0;
+    width: 100%;
+  }
+} 

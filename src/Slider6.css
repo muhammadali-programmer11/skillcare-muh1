@@ -1,0 +1,30 @@
+.sc6-text {
+  font-size: 38px;
+  text-align: center;
+}
+
+.sc6-cards {
+  display: flex;
+  width: 390px;
+  height: 246px;
+  background-color: #feffff;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.sc6-text1,
+.sc6-title {
+  margin: 20px;
+  font-size: 16px;
+}
+
+.sc6-profile {
+  margin: 20px;
+  gap: 10px;
+}
+
+@media (max-width:599px){
+    .sc6-text1{
+        font-size: 12px;
+    }
+}
